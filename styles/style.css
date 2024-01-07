@@ -50,12 +50,13 @@ main section {
 }
 
 /* heder part styles is here  */
-.header {
+.header,
+#hot-deal {
   background-color: rgba(229, 84, 115, 0.1);
 }
 
 .container {
-  width: 75%;
+  /* width: 75%; */
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -154,4 +155,65 @@ main section {
 
 .supp-info p {
   margin-top: 2rem;
+}
+
+/* hot-deal style is here  */
+.hot-deal-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7rem;
+  padding: 10rem 0;
+}
+
+.hot-deal-text,
+.instra-text {
+  max-width: 50rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hot-deal-text * {
+  margin-bottom: 2rem;
+}
+
+.hot-deal-img img {
+  width: 100%;
+}
+
+/* instragram style is here  */
+
+.instra-img {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* padding: 0 2rem; */
+  padding: 0 10rem;
+}
+
+.instra-img img {
+  /* width: 24rem; */
+  width: 100%;
+}
+
+/* lates deal style is here  */
+.lates-deal {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10rem 0;
+  margin: 0 auto;
+}
+
+.lates-deal-info {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.form {
+  max-width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
