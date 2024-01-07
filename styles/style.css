@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* common styles  */
+main section {
+  margin-top: 9.5rem;
+}
+
+.primary-title {
+  color: #272727;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.7rem;
+}
+
+.para-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.para-text-secondary {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.btn-primary {
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+  background-color: #e55473;
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* heder part styles is here  */
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6.7rem;
+  padding-top: 7.5rem;
+}
+
+.banner-text {
+  max-width: 52rem;
+}
+
+.banner-text * {
+  margin-bottom: 2.6rem;
+}
+
+.banner-text > h1 {
+  color: #272727;
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Featured section style is here  */
+.section-heading {
+  max-width: 50rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.flower .flower-img {
+  width: 30rem;
+  height: 35rem;
+  padding: 5.8rem 5.8rem 0 5.8rem;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+}
+
+.pink {
+  background-color: rgba(167, 33, 98, 0.15);
+  align-items: end;
+}
+
+.blue {
+  background-color: rgba(5, 151, 160, 0.15);
+  align-items: center;
+}
+
+.green {
+  background-color: rgba(71, 125, 17, 0.15);
+  align-items: end;
+}
+
+.flower-img img {
+  width: 100%;
+}
+
+.section-content .flower p {
+  color: #272727;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 2rem;
+}
+
+/* .suupport part style is here  */
+.support {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem 10rem;
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+}
+
+.supp-info {
+  display: grid;
+  place-items: center;
+}
+
+.supp-info p {
+  margin-top: 2rem;
+}
